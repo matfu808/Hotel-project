@@ -4,10 +4,31 @@
     <link rel="stylesheet" type="text/css" href="hotelcss.css" />
   </head>
   <body>
-    <div id="boxone">
-      <input type="number" id="roomnumbercss" />
-      <input type="text" id="peoplecss" />
-      <button onclick="addpeople()">addroomnumber</button>      
+    <h1>Hotel check-In</h1>
+
+    <div id="titlemovingleft">
+      <h3 id="inputing">Input</h3>
+      <input type="text" id="customer1" />
+      <button id="addone" onclick="addMeone()">Click Me to Add</button>
+    </div>
+<h3>Time inside of room</h3>
+    <input type="text" id="time1" />
+    <div id="titlemovingright">
+      <h3 id="takeout">Remove</h3>
+      <input type="number" id="removecustomer1" />
+      <button id="minusone" onclick="removeStuffone()">Click me to Take Away</button>
+    </div>
+    <button onclick="lockone()">Click Me to lock or unlock room one</button>
+    <div id="listgoingdown">
+      <h2>People in Room 1:</h2>
+      <ol>
+      </ol>
+      <button onclick="deleteeverythingone()">Click me to checkeveryone out of the room</button>
+     
+    </div>
+    <h4 id="roomlockunlock1"></h4>
+    <h3 id="full1"></h3>
+    <script src="hoteljs.js"></script>
     </div>
   </body>
 </html>
