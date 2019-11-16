@@ -7,28 +7,68 @@
     <h1>Hotel check-In</h1>
 
     <div id="titlemovingleft">
-      <h3 id="inputing">Input</h3>
+      <h3 id="inputing">Input Customer</h3>
       <input type="text" id="customer1" />
       <button id="addone" onclick="addMeone()">Click Me to Add</button>
     </div>
-<h3>Time inside of room</h3>
+    <h3>Time and Date inside of room</h3>
     <input type="text" id="time1" />
     <div id="titlemovingright">
       <h3 id="takeout">Remove</h3>
       <input type="number" id="removecustomer1" />
-      <button id="minusone" onclick="removeStuffone()">Click me to Take Away</button>
+      <button id="minusone" onclick="removeStuffone()">
+        Click me to Take Away
+      </button>
     </div>
     <button onclick="lockone()">Click Me to lock or unlock room one</button>
     <div id="listgoingdown">
       <h2>People in Room 1:</h2>
-      <ol>
-      </ol>
-      <button onclick="deleteeverythingone()">Click me to checkeveryone out of the room</button>
-     
+      <ol id="olid1"></ol>
+      <button onclick="deleteeverythingone()">
+        Click me to checkeveryone out of the room
+      </button>
     </div>
     <h4 id="roomlockunlock1"></h4>
     <h3 id="full1"></h3>
-    <script src="hoteljs.js"></script>
+
+    <!-------------------------------------------------------------------------------------------
+    -->
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <div id="titlemovingleft">
+      <h3 id="inputing">Input Customer</h3>
+      <input type="text" id="customer2" />
+      <button id="addtwo" onclick="addMetwo()">Click Me to Add</button>
     </div>
+    <h3>Time and Date inside of room</h3>
+    <input type="text" id="time2" />
+    <div id="titlemovingright">
+      <h3 id="takeout">Remove</h3>
+      <input type="number" id="removecustomer2" />
+      <button id="minustwo" onclick="removeStufftwo()">
+        Click me to Take Away
+      </button>
+    </div>
+    <button onclick="locktwo()">Click Me to lock or unlock room one</button>
+    <div id="listgoingdown">
+      <h2>People in Room 1:</h2>
+      <ol id="olid2"></ol>
+      <button onclick="deleteeverythingtwo()">
+        Click me to checkeveryone out of the room
+      </button>
+    </div>
+    <h4 id="roomlockunlock2"></h4>
+    <h3 id="full2"></h3>
+    <script src="hoteljs.js"></script>
   </body>
 </html>
+
+<p id="allguests">
+
+</p>
