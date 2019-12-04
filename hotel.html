@@ -1,200 +1,140 @@
 <html>
   <head>
     <title>Hotel Check-In</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" type="text/css" href="hotelcss.css" />
   </head>
-  <body>
-    <h1 id = "creativetitle">Hotel check-In</h1>
+  <body id="bodyid">
+    <img id="logo" src="Logo - Black.SVG" class="center" />
+    <p id="creativetitle">Hotel Check-In</p>
 
+    <div id="firstrow">
+      <div id="room1">
+        <p class="roomtitle">Room 1</p>
+        <p class="inputingtitle">Input Customer</p>
+        <input type="text" id="customer1" />
+        <button class="addtitle" onclick="addMeone()">Add</button>
+        <p id="tryagain1"></p>
 
-      <h3 id="inputing">Input Customer</h3>
-      <input type="text" id="customer1" />
-      <button id="addone" onclick="addMeone()">Click Me to Add</button>
+        <button class="locktitle" onclick="lockone()">
+          Lock / Unlock Room
+        </button>
+        <p id="roomlockunlock1"></p>
+        <button class="deletetitle" onclick="deleteeverythingone()">
+          Check-out all
+        </button>
+        <p class="people">People</p>
 
-    <h3>Time and Date inside of room</h3>
-    <input type="text" id="time1" />
+        <ol id="olid1"></ol>
+        <p id="full1"></p>
+      </div>
 
-      <h3 id="takeout">Remove</h3>
-      <input type="number" id="removecustomer1" />
-      <button id="minusone" onclick="removeStuffone()">
-        Click me to Take Away
-      </button>
- 
-    <button onclick="lockone()">Click Me to lock or unlock room one</button>
+      <div id="room2">
+        <p class="roomtitle">Room 2</p>
+        <p class="inputingtitle">Input Customer</p>
+        <input type="text" id="customer2" />
+        <button class="addtitle" onclick="addMetwo()">Add</button>
+        <p id="tryagain2"></p>
+        <button class="locktitle" onclick="locktwo()">
+          Lock / Unlock Room
+        </button>
+        <p id="roomlockunlock2"></p>
+        <button class="deletetitle" onclick="deleteeverythingtwo()">
+          Check-out all
+        </button>
+        <p class="people">People</p>
+        <ol id="olid2"></ol>
+        <p id="full2"></p>
+      </div>
 
-      <h2>People in Room 1:</h2>
-      <ol id="olid1"></ol>
-      <button onclick="deleteeverythingone()">
-        Click me to checkeveryone out of the room
-      </button>
- 
-    <h4 id="roomlockunlock1"></h4>
-    <h3 id="full1"></h3>
+      <div id="room3">
+        <p class="roomtitle">Room 3</p>
+        <p class="inputingtitle">Input Customer</p>
+        <input type="text" id="customer3" />
+        <button class="addtitle" onclick="addMethree()">Add</button>
+        <p id="tryagain3"></p>
+        <button class="locktitle" onclick="lockthree()">
+          Lock / Unlock Room
+        </button>
+        <p id="roomlockunlock3"></p>
+        <button class="deletetitle" onclick="deleteeverythingthree()">
+          Check-out all
+        </button>
+        <p class="people">People</p>
 
-    <!-------------------------------------------------------------------------------------------
-    -->
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
+        <ol id="olid3"></ol>
+        <p id="full3"></p>
+      </div>
+    </div>
 
- 
-      <h3 id="inputing">Input Customer</h3>
-      <input type="text" id="customer2" />
-      <button id="addtwo" onclick="addMetwo()">Click Me to Add</button>
-   
-    <h3>Time and Date inside of room</h3>
-    <input type="text" id="time2" />
-    
-      <h3 id="takeout">Remove</h3>
-      <input type="number" id="removecustomer2" />
-      <button id="minustwo" onclick="removeStufftwo()">
-        Click me to Take Away
-      </button>
-  
-    <button onclick="locktwo()">Click Me to lock or unlock room one</button>
-  
-      <h2>People in Room 1:</h2>
-      <ol id="olid2"></ol>
-      <button onclick="deleteeverythingtwo()">
-        Click me to checkeveryone out of the room
-      </button>
-  
-    <h4 id="roomlockunlock2"></h4>
-    <h3 id="full2"></h3>
-    
+    <div id="rowtwo">
+      <div id="room4">
+        <p class="roomtitle">Room 4</p>
+        <p class="inputingtitle">Input Customer</p>
+        <input type="text" id="customer4" />
+        <button class="addtitle" onclick="addMefour()">Add</button>
+        <p id="tryagain4"></p>
 
+        <button class="locktitle" onclick="lockfour()">
+          Lock / Unlock Room
+        </button>
+        <p id="roomlockunlock4"></p>
+        <button class="deletetitle" onclick="deleteeverythingfour()">
+          Check-out all
+        </button>
+        <p class="people">People</p>
 
-<!----------------------------------------------------------
--->
+        <ol id="olid4"></ol>
+        <p id="full4"></p>
+      </div>
 
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
+      <div id="room5">
+        <p class="roomtitle">Room 5</p>
+        <p class="inputingtitle">Input Customer</p>
+        <input type="text" id="customer5" />
+        <button class="addtitle" onclick="addMefive()">Add</button>
+        <p id="tryagain5"></p>
+        <button class="locktitle" onclick="lockfive()">
+          Lock / Unlock Room
+        </button>
+        <p id="roomlockunlock5"></p>
+        <button class="deletetitle" onclick="deleteeverythingfive()">
+          Check-out all
+        </button>
+        <p class="people">People</p>
 
+        <ol id="olid5"></ol>
+        <p id="full5"></p>
+      </div>
 
-  <h3 id="inputing">Input Customer</h3>
-  <input type="text" id="customer3" />
-  <button id="addthree" onclick="addMethree()">Click Me to Add</button>
+      <div id="room6">
+        <p class="roomtitle">Room 6</p>
+        <p class="inputingtitle">Input Customer</p>
+        <input type="text" id="customer6" />
+        <button class="addtitle" onclick="addMesix()">Add</button>
+        <p id="tryagain6"></p>
 
-<h3>Time and Date inside of room</h3>
-<input type="text" id="time3" />
+        <button class="locktitle" onclick="locksix()">
+          Lock / Unlock Room
+        </button>
+        <p id="roomlockunlock6"></p>
+        <button class="deletetitle" onclick="deleteeverythingsix()">
+          Check-out all
+        </button>
+        <p class="people">People</p>
 
-  <h3 id="takeout">Remove</h3>
-  <input type="number" id="removecustomer3" />
-  <button id="minusthree" onclick="removeStuffthree()">
-    Click me to Take Away
-  </button>
-
-<button onclick="lockthree()">Click Me to lock or unlock room one</button>
-
-  <h2>People in Room 1:</h2>
-  <ol id="olid3"></ol>
-  <button onclick="deleteeverythingthree()">
-    Click me to checkeveryone out of the room
-  </button>
-
-<h4 id="roomlockunlock3"></h4>
-<h3 id="full3"></h3>
-
-
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-
-
-  <h3 id="inputing">Input Customer</h3>
-  <input type="text" id="customer4" />
-  <button id="addfour" onclick="addMefour()">Click Me to Add</button>
-
-<h3>Time and Date inside of room</h3>
-<input type="text" id="time4" />
-
-  <h3 id="takeout">Remove</h3>
-  <input type="number" id="removecustomer4" />
-  <button id="minusfour" onclick="removeStufffour()">
-    Click me to Take Away
-  </button>
-
-<button onclick="lockfour()">Click Me to lock or unlock room one</button>
-
-  <h2>People in Room 1:</h2>
-  <ol id="olid4"></ol>
-  <button onclick="deleteeverythingfour()">
-    Click me to checkeveryone out of the room
-  </button>
-
-<h4 id="roomlockunlock4"></h4>
-<h3 id="full4"></h3>
-
-<!----------------------------------
-----------------------
----------->
-
-  <h3 id="inputing">Input Customer</h3>
-  <input type="text" id="customer5" />
-  <button id="addfive" onclick="addMefive()">Click Me to Add</button>
-
-<h3>Time and Date inside of room</h3>
-<input type="text" id="time5" />
-
-  <h3 id="takeout">Remove</h3>
-  <input type="number" id="removecustomer5" />
-  <button id="minusfive" onclick="removeStufffive()">
-    Click me to Take Away
-  </button>
-
-<button onclick="lockfive()">Click Me to lock or unlock room one</button>
-
-  <h2>People in Room 1:</h2>
-  <ol id="olid5"></ol>
-  <button onclick="deleteeverythingfive()">
-    Click me to checkeveryone out of the room
-  </button>
-
-<h4 id="roomlockunlock5"></h4>
-<h3 id="full5"></h3>
-
-<!----------------------------------
-----------------------
----------->
-
-  <h3 id="inputing">Input Customer</h3>
-  <input type="text" id="customer6" />
-  <button id="addsix" onclick="addMesix()">Click Me to Add</button>
-
-<h3>Time and Date inside of room</h3>
-<input type="text" id="time6" />
-
-  <h3 id="takeout">Remove</h3>
-  <input type="number" id="removecustomer6" />
-  <button id="minussix" onclick="removeStuffsix()">
-    Click me to Take Away
-  </button>
-
-<button onclick="locksix()">Click Me to lock or unlock room one</button>
-
-  <h2>People in Room 1:</h2>
-  <ol id="olid6"></ol>
-  <button onclick="deleteeverythingsix()">
-    Click me to checkeveryone out of the room
-  </button>
-
-<h4 id="roomlockunlock6"></h4>
-<h3 id="full6"></h3>
-
-<p id="allguests"></p>
-<script src="hoteljs.js"></script>
-</body>
+        <ol id="olid6"></ol>
+        <p id="full6"></p>
+      </div>
+      <div id="all"></div>
+    </div>
+    <div id="all">
+      <p id="allcustomers">All Customers</p>
+      <p id="allguests"></p>
+    </div>
+    <script src="hoteljs.js"></script>
+  </body>
 </html>

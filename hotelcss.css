@@ -1,0 +1,244 @@
+.roomtitle {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.inputtingtitle {
+  font-family: "Ubuntu", sans-serif;
+}
+
+#creativetitle {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 40px;
+  margin-top: 5vh;
+}
+
+#room1 {
+  width: 20vw;
+  height: 20vh;
+  margin-left: 5vw;
+  padding: 0px 0px 0px 0px;
+}
+
+#room2 {
+  width: 20vw;
+  height: 20vh;
+  padding: 0px 0px 0px 0px;
+}
+
+#room3 {
+  width: 20vw;
+  height: 20vh;
+  padding: 0px 0px 0px 0px;
+}
+
+#room4 {
+  width: 20vw;
+  height: 20vh;
+  padding: 0px 0px 0px 0px;
+  margin-left: 5vw;
+}
+
+#room5 {
+  width: 20vw;
+  height: 20vh;
+  padding: 0px 0px 0px 0px;
+}
+
+#room6 {
+  width: 20vw;
+  height: 20vh;
+  padding: 0px 0px 0px 0px;
+}
+
+#bodyid {
+  background-color: #b3c7d6ff;
+}
+
+#tryagain1 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 12px;
+  color: red;
+}
+
+#tryagain2 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 12px;
+  color: red;
+}
+
+#tryagain3 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 12px;
+  color: red;
+}
+
+#tryagain4 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 12px;
+  color: red;
+}
+
+#tryagain5 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 12px;
+  color: red;
+}
+
+#tryagain6 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 12px;
+  color: red;
+}
+
+#olid1 {
+  font-family: "Ubuntu", sans-serif;
+  color: #2460a7ff;
+}
+
+#olid2 {
+  font-family: "Ubuntu", sans-serif;
+  color: #2460a7ff;
+}
+
+#olid3 {
+  font-family: "Ubuntu", sans-serif;
+  color: #2460a7ff;
+}
+
+#olid4 {
+  font-family: "Ubuntu", sans-serif;
+  color: #2460a7ff;
+}
+
+#olid5 {
+  font-family: "Ubuntu", sans-serif;
+  color: #2460a7ff;
+}
+
+#olid6 {
+  font-family: "Ubuntu", sans-serif;
+  color: #2460a7ff;
+}
+
+.addtitle {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition-duration: 0.4s;
+  background-color: #d9b48fff;
+  border-radius: 12px;
+  font-family: "Ubuntu", sans-serif;
+}
+.locktitle {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition-duration: 0.4s;
+  background-color: #d9b48fff;
+  border-radius: 12px;
+  font-family: "Ubuntu", sans-serif;
+}
+.deletetitle {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition-duration: 0.4s;
+  background-color: #d9b48fff;
+  border-radius: 12px;
+  font-family: "Ubuntu", sans-serif;
+}
+.inputingtitle {
+  font-family: "Ubuntu", sans-serif;
+}
+
+#customer1 {
+  font-family: "Ubuntu", sans-serif;
+}
+
+#customer2 {
+  font-family: "Ubuntu", sans-serif;
+}
+
+#customer3 {
+  font-family: "Ubuntu", sans-serif;
+}
+
+#customer4 {
+  font-family: "Ubuntu", sans-serif;
+}
+
+#customer5 {
+  font-family: "Ubuntu", sans-serif;
+}
+
+#customer6 {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.people {
+  text-decoration: underline;
+  font-family: "Ubuntu", sans-serif;
+}
+
+#full1 {
+  font-family: "Ubuntu", sans-serif;
+}
+
+#full2 {
+  font-family: "Ubuntu", sans-serif;
+}
+
+#full3 {
+  font-family: "Ubuntu", sans-serif;
+}
+
+#full4 {
+  font-family: "Ubuntu", sans-serif;
+}
+
+#full5 {
+  font-family: "Ubuntu", sans-serif;
+}
+
+#full6 {
+  font-family: "Ubuntu", sans-serif;
+}
+
+#allcustomers {
+  font-family: "Ubuntu", sans-serif;
+}
+
+#allguests {
+  font-family: "Ubuntu", sans-serif;
+}
+
+#all {
+  float: right;
+  bottom: 80vh;
+  width: 20vw;
+}
+
+#firstrow {
+  height: 20vh;
+  display: flex;
+}
+
+#firstrow div {
+  width: 30vw;
+}
+
+#rowtwo {
+  margin-top: 50vh;
+  height: 20vh;
+  display: flex;
+}
+
+#rowtwo div {
+  width: 30vw;
+}
+
+#all {
+  float: right;
+  width: 20vw;
+  display: block;
+}
+
+#logo {
+  float: right;
+}
