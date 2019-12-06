@@ -67,7 +67,7 @@ function lockone() {
     document.getElementById("roomlockunlock1").innerHTML = "room is locked";
   } else {
     lockcheck1 = false;
-    document.getElementById("roomlockunlock1").innerHTML = "room is unlocked";
+    document.getElementById("roomlockunlock1").innerHTML = "";
   }
 }
 function deleteeverythingone() {
@@ -147,7 +147,7 @@ function locktwo() {
     document.getElementById("roomlockunlock2").innerHTML = "room is locked";
   } else {
     lockcheck2 = false;
-    document.getElementById("roomlockunlock2").innerHTML = "room is unlocked";
+    document.getElementById("roomlockunlock2").innerHTML = "";
   }
 }
 function deleteeverythingtwo() {
@@ -226,7 +226,7 @@ function lockthree() {
     document.getElementById("roomlockunlock3").innerHTML = "room is locked";
   } else {
     lockcheck3 = false;
-    document.getElementById("roomlockunlock3").innerHTML = "room is unlocked";
+    document.getElementById("roomlockunlock3").innerHTML = "";
   }
 }
 function deleteeverythingthree() {
@@ -305,7 +305,7 @@ function lockfour() {
     document.getElementById("roomlockunlock4").innerHTML = "room is locked";
   } else {
     lockcheck4 = false;
-    document.getElementById("roomlockunlock4").innerHTML = "room is unlocked";
+    document.getElementById("roomlockunlock4").innerHTML = "";
   }
 }
 function deleteeverythingfour() {
@@ -384,7 +384,7 @@ function lockfive() {
     document.getElementById("roomlockunlock5").innerHTML = "room is locked";
   } else {
     lockcheck5 = false;
-    document.getElementById("roomlockunlock5").innerHTML = "room is unlocked";
+    document.getElementById("roomlockunlock5").innerHTML = "";
   }
 }
 function deleteeverythingfive() {
@@ -464,7 +464,7 @@ function locksix() {
     document.getElementById("roomlockunlock6").innerHTML = "room is locked";
   } else {
     lockcheck6 = false;
-    document.getElementById("roomlockunlock6").innerHTML = "room is unlocked";
+    document.getElementById("roomlockunlock6").innerHTML = "";
   }
 }
 function deleteeverythingsix() {

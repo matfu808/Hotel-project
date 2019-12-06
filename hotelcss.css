@@ -16,39 +16,39 @@
 
 #room1 {
   width: 20vw;
-  height: 20vh;
+  height: 70vh;
   margin-left: 5vw;
   padding: 0px 0px 0px 0px;
 }
 
 #room2 {
   width: 20vw;
-  height: 20vh;
+  height: 70vh;
   padding: 0px 0px 0px 0px;
 }
 
 #room3 {
-  width: 20vw;
-  height: 20vh;
+  width: 60vw;
+  height: 70vh;
   padding: 0px 0px 0px 0px;
 }
 
 #room4 {
   width: 20vw;
-  height: 20vh;
+  height: 70vh;
   padding: 0px 0px 0px 0px;
   margin-left: 5vw;
 }
 
 #room5 {
   width: 20vw;
-  height: 20vh;
+  height: 70vh;
   padding: 0px 0px 0px 0px;
 }
 
 #room6 {
   width: 20vw;
-  height: 20vh;
+  height: 70vh;
   padding: 0px 0px 0px 0px;
 }
 
@@ -201,11 +201,17 @@
 }
 
 #allcustomers {
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Baskervville", serif;
+  text-decoration: underline;
+  font-size: 4vh;
+  position: absolute;
+  top: 95%;
 }
 
 #allguests {
   font-family: "Ubuntu", sans-serif;
+  position: absolute;
+  top: 100%;
 }
 
 #all {
@@ -224,7 +230,6 @@
 }
 
 #rowtwo {
-  margin-top: 50vh;
   height: 20vh;
   display: flex;
 }
@@ -241,4 +246,28 @@
 
 #logo {
   float: right;
+  margin-right: 5vw;
+}
+
+#deluxe {
+  font-family: "Baskervville", serif;
+  font-size: 4vh;
+  margin-left: 10vw;
+}
+
+#normal {
+  font-family: "Baskervville", serif;
+  font-size: 4vh;
+  margin-left: 10vw;
+  margin-top: 55vh;
+}
+
+#copyright {
+  margin-top: 60vh;
+  color: white;
+  background-color: black;
+  font-size: 3vh;
+  padding: 10px 10px 10px 10px;
+  position: relative;
+  width: 70vw;
 }
