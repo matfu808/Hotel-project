@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <style>
+      #seepageonebutton {
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2),
+          0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        transition-duration: 0.4s;
+        background-color: #d9b48fff;
+        border-radius: 12px;
+        font-family: "Ubuntu", sans-serif;
+      }
+      #page2body {
+        background-color: skyblue;
+      }
+      #containsall {
+        font-family: "Ubuntu", sans-serif;
+        color: #2460a7ff;
+      }
+    </style>
+    <title>page 2</title>
+  </head>
+  <body id="page2body">
+    <!--<span id="result"></span>-->
+    <button onclick="seepageone()" id="seepageonebutton">seepageone</button>
+    <ol id="containsall"></ol>
+    <script>
+      var room = JSON.parse(localStorage.getItem("guests"));
+      for (var i = 0; i < room.length; i++) {
+        var newText = document.createTextNode(room[i]);
+
+        var listone = document.createElement("li");
+
+        listone.appendChild(newText);
+
+        var gotol = document.getElementsByTagName("ol")[0];
+
+        gotol.appendChild(listone);
+      }
+      //document.getElementById("result").innerHTML = localStorage.getItem("myname");
+    </script>
+    <script src="hoteljs.js"></script>
+  </body>
+</html>
